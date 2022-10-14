@@ -1,0 +1,206 @@
+/* Tablet */
+
+@media (max-width: 1000px) {
+    .header-title {
+        font-size: 50px;
+        margin-bottom: 28px;
+    }
+
+    .header-text {
+        font-size: 24px;
+        margin-bottom: 52px;
+    }
+
+    .nav-list {
+        column-gap: 60px;
+    }
+
+    .slider {
+        width: 1300px;
+    }
+
+    .slide {
+        padding-left: 50px;
+    }
+
+    .slide-img {
+        width: 336px;
+        height: 396px;
+    }
+    .slide-title {
+        bottom: 32px;
+        font-size: 80px;
+        background: linear-gradient(
+            90deg,
+            rgba(17, 68, 85, 1) 45px,
+            rgba(255, 255, 255, 1) 45px
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+
+    .case-studies {
+        padding: 80px 0;
+    }
+
+    .case-stadies-text {
+        margin-bottom: 50px;
+    }
+
+    .about {
+        padding: 80px 0;
+    }
+
+    .about-text {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding: 32px 0 32px;
+    }
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 32px;
+    }
+    .footer-nav {
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+    }
+    .footer a {
+        color: rgba(73, 42, 211, 0.7);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .nav-logo {
+        margin-left: 9px;
+        max-width: 109px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+        margin-right: 1px;
+    }
+
+    .header {
+        background-image: url('./../Img/Header/Header-mb-bg.jpg');
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    .header-content-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+
+        color: rgba(31, 31, 31, 0.7);
+    }
+
+    .header-logo-mobile {
+        width: 244px;
+    }
+
+    .header-text-mobale {
+        max-width: 237px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.06em;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .header-arrows {
+        width: 19px;
+        height: 16px;
+        bottom: 32px;
+    }
+
+    .case-studies {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .case-stadies-title {
+        margin-bottom: 7px;
+    }
+    .case-stadies-text {
+        margin-bottom: 31px;
+    }
+    .title {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .slider {
+        width: 546px;
+    }
+
+    .slide {
+        padding-left: 33px;
+    }
+
+    .slide-img {
+        width: 224px;
+        height: 264px;
+    }
+
+    .slide-title {
+        bottom: 22px;
+        font-size: 60px;
+        background: linear-gradient(
+            90deg,
+            rgba(17, 68, 85, 1) 33px,
+            rgba(255, 255, 255, 1) 33px
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .about {
+        padding: 40px 0 80px;
+    }
+    .about-text {
+        margin-bottom: 40px;
+    }
+    .video {
+        overflow: hidden;
+    }
+    .video-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .video-picture,
+    .video-picture img {
+        width: 100%;
+    }
+
+    .video-object {
+        position: absolute;
+        left: -50%;
+        top: 0;
+        width: 900px;
+        height: 459px;
+        vertical-align: top;
+    }
+}
