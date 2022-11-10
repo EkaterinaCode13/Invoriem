@@ -1,5 +1,5 @@
 @import 'reset.css';
-@import '../font/Gilroy/stylesheet.css';
+@import '../fonts/Gilroy/stylesheet.css';
 
 /*font-family: 'Work Sans', sans-serif;*/
 /*font-family: 'Gilroy', sans-serif;*/
@@ -70,7 +70,7 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
-    column-gap: 118px;
+    /* column-gap: 118px; */
 }
 .link {
     color: #114455;
@@ -83,6 +83,7 @@ body {
     display: inline-block;
     border: 1px solid #114455;
     border-radius: 2px;
+    margin-left: 116px;
     padding: 10px 24px;
     padding-right: 72px;
     color: #114455;
