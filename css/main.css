@@ -30,7 +30,7 @@ body {
     position: relative;
     min-height: 100vh;
     background-color: #e1edf2;
-    background-image: url('./../Img/Header/Header-bg.jpg');
+    background-image: url('./../img/header/header-bg.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -98,7 +98,7 @@ body {
     width: 32px;
     height: 32px;
     right: 24px;
-    background-image: url('./../Img/Header/ArrowRightBlack.svg');
+    background-image: url('./../img/header/arrowRightBlack.svg');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -132,7 +132,7 @@ body {
 }
 
 .button-dark::after {
-    background-image: url('./../Img/Header/ArrowRightW.svg');
+    background-image: url('./../img/header/arrowRightW.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
