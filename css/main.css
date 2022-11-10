@@ -161,7 +161,7 @@ body {
     margin-bottom: 72px;
     font-size: 34px;
     line-height: 1.57;
-    color: #1f1f1f;
+    color: rgba(31, 31, 31, 0.7);
 }
 
 .none {
