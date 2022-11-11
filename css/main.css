@@ -309,6 +309,7 @@ header-text p + p {
     font-size: 20px;
     line-height: 36px;
     text-decoration: none;
+    margin-right: 104px;
 }
 
 .footer-row {
@@ -319,10 +320,8 @@ header-text p + p {
 .footer-nav {
     display: flex;
     justify-content: space-between;
-    column-gap: 104px;
 }
-/* .footer-email {
-} */
+
 .footer-socials {
     display: flex;
     column-gap: 26px;
