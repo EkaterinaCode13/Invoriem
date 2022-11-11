@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy';
     font-weight: 500;
     color: rgba(31, 31, 31, 0.7);
 }
@@ -77,13 +77,13 @@ body {
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
+    margin-right: 116px;
 }
 .button {
     position: relative;
     display: inline-block;
     border: 1px solid #114455;
     border-radius: 2px;
-    margin-left: 116px;
     padding: 10px 24px;
     padding-right: 72px;
     color: #114455;
