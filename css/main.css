@@ -303,7 +303,7 @@ header-text p + p {
     line-height: 36px;
 }
 
-.footer a {
+.footer-email {
     letter-spacing: 0.04em;
     color: rgba(31, 31, 31, 0.7);
     font-size: 20px;
@@ -350,6 +350,13 @@ header-text p + p {
     justify-content: space-between;
     /*    margin-bottom: 66px;*/
 }
+
+/* .mobile-footer-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 104px;
+} */
+
 .mobile-nav-button {
     margin-right: 1px;
 }

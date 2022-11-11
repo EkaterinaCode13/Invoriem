@@ -203,4 +203,7 @@
         height: 459px;
         vertical-align: top;
     }
+    .footer-email {
+        margin-right: 0px;
+    }
 }
